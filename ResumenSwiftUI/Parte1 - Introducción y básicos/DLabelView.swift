@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LabelView: View {
+struct DLabelView: View {
     var body: some View {
         Label("Suscribiros a SwiftBeta", systemImage: "hand.thumbsup.fill")
             .font(.title)
@@ -15,5 +15,5 @@ struct LabelView: View {
 }
 
 #Preview {
-    LabelView()
+    DLabelView()
 }

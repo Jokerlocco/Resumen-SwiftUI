@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LinkView: View {
+struct LLinkView: View {
     var body: some View {
         VStack {
             // Hacer que abra el navegador por defecto y cargue la URL dada (Para probarlo, tienes que COMPILAR sí o sí):
@@ -35,5 +35,5 @@ struct LinkView: View {
 }
 
 #Preview {
-    LinkView()
+    LLinkView()
 }

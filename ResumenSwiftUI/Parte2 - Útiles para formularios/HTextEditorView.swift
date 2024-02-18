@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TextEditorView: View {
+struct HTextEditorView: View {
     
     @State var text = "Escribe algo..."
     @State var counter = 0
@@ -32,5 +32,5 @@ struct TextEditorView: View {
 }
 
 #Preview {
-    TextEditorView()
+    HTextEditorView()
 }

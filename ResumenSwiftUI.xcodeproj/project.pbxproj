@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF287C212B80DCA10046A07C /* ScrollAndLazyGridsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C202B80DCA10046A07C /* ScrollAndLazyGridsView.swift */; };
-		CF287C232B8104BE0046A07C /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C222B8104BE0046A07C /* FormView.swift */; };
-		CF287C262B810A3B0046A07C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C252B810A3B0046A07C /* ListView.swift */; };
-		CF5685E82B7EBEEF006DF7A3 /* TextFieldAndSecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685E72B7EBEEF006DF7A3 /* TextFieldAndSecureFieldView.swift */; };
-		CF5685EA2B7EC678006DF7A3 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685E92B7EC678006DF7A3 /* TextEditorView.swift */; };
-		CF5685EC2B7EC816006DF7A3 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685EB2B7EC816006DF7A3 /* DatePickerView.swift */; };
+		CF287C212B80DCA10046A07C /* PScrollAndLazyGridsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C202B80DCA10046A07C /* PScrollAndLazyGridsView.swift */; };
+		CF287C232B8104BE0046A07C /* QFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C222B8104BE0046A07C /* QFormView.swift */; };
+		CF287C262B810A3B0046A07C /* RListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C252B810A3B0046A07C /* RListView.swift */; };
+		CF5685E82B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685E72B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift */; };
+		CF5685EA2B7EC678006DF7A3 /* HTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685E92B7EC678006DF7A3 /* HTextEditorView.swift */; };
+		CF5685EC2B7EC816006DF7A3 /* IDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685EB2B7EC816006DF7A3 /* IDatePickerView.swift */; };
 		CF5685F12B7ECA4E006DF7A3 /* UtilidadesGenerales.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685F02B7ECA4E006DF7A3 /* UtilidadesGenerales.swift */; };
 		CF681C5E2B79859B005B4CDC /* ResumenSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF681C5D2B79859B005B4CDC /* ResumenSwiftUIApp.swift */; };
 		CF681C622B79859C005B4CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF681C612B79859C005B4CDC /* Assets.xcassets */; };
@@ -20,18 +20,18 @@
 		CF681C702B79859C005B4CDC /* ResumenSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF681C6F2B79859C005B4CDC /* ResumenSwiftUITests.swift */; };
 		CF681C7A2B79859C005B4CDC /* ResumenSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF681C792B79859C005B4CDC /* ResumenSwiftUIUITests.swift */; };
 		CF681C7C2B79859C005B4CDC /* ResumenSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF681C7B2B79859C005B4CDC /* ResumenSwiftUIUITestsLaunchTests.swift */; };
-		CF681C892B798611005B4CDC /* PositionersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF681C882B798611005B4CDC /* PositionersView.swift */; };
-		CF681C8C2B798909005B4CDC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF681C8B2B798909005B4CDC /* ImageView.swift */; };
-		CF867BC72B800F1A00DC353F /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BC62B800F1A00DC353F /* ColorPickerView.swift */; };
-		CF867BC92B80144500DC353F /* ProgressViewT.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BC82B80144500DC353F /* ProgressViewT.swift */; };
-		CF867BCB2B80175600DC353F /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BCA2B80175600DC353F /* LinkView.swift */; };
-		CF867BCD2B80196800DC353F /* TogggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BCC2B80196800DC353F /* TogggleView.swift */; };
-		CF867BCF2B801CA600DC353F /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BCE2B801CA600DC353F /* StepperView.swift */; };
-		CF867BD12B801E7300DC353F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BD02B801E7300DC353F /* SliderView.swift */; };
-		CFE08A3C2B7C1E3F004B1AF7 /* StatePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE08A3B2B7C1E3F004B1AF7 /* StatePropertyView.swift */; };
-		CFE08A3E2B7C1EF7004B1AF7 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE08A3D2B7C1EF7004B1AF7 /* LabelView.swift */; };
-		CFE08A402B7C207B004B1AF7 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE08A3F2B7C207B004B1AF7 /* TextView.swift */; };
-		CFE08A422B7C23A7004B1AF7 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE08A412B7C23A7004B1AF7 /* ButtonView.swift */; };
+		CF681C892B798611005B4CDC /* APositionersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF681C882B798611005B4CDC /* APositionersView.swift */; };
+		CF681C8C2B798909005B4CDC /* BImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF681C8B2B798909005B4CDC /* BImageView.swift */; };
+		CF867BC72B800F1A00DC353F /* JColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BC62B800F1A00DC353F /* JColorPickerView.swift */; };
+		CF867BC92B80144500DC353F /* KProgressViewT.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BC82B80144500DC353F /* KProgressViewT.swift */; };
+		CF867BCB2B80175600DC353F /* LLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BCA2B80175600DC353F /* LLinkView.swift */; };
+		CF867BCD2B80196800DC353F /* MTogggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BCC2B80196800DC353F /* MTogggleView.swift */; };
+		CF867BCF2B801CA600DC353F /* NStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BCE2B801CA600DC353F /* NStepperView.swift */; };
+		CF867BD12B801E7300DC353F /* OSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BD02B801E7300DC353F /* OSliderView.swift */; };
+		CFE08A3C2B7C1E3F004B1AF7 /* CStatePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE08A3B2B7C1E3F004B1AF7 /* CStatePropertyView.swift */; };
+		CFE08A3E2B7C1EF7004B1AF7 /* DLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE08A3D2B7C1EF7004B1AF7 /* DLabelView.swift */; };
+		CFE08A402B7C207B004B1AF7 /* ETextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE08A3F2B7C207B004B1AF7 /* ETextView.swift */; };
+		CFE08A422B7C23A7004B1AF7 /* FButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE08A412B7C23A7004B1AF7 /* FButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,12 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CF287C202B80DCA10046A07C /* ScrollAndLazyGridsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollAndLazyGridsView.swift; sourceTree = "<group>"; };
-		CF287C222B8104BE0046A07C /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
-		CF287C252B810A3B0046A07C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		CF5685E72B7EBEEF006DF7A3 /* TextFieldAndSecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAndSecureFieldView.swift; sourceTree = "<group>"; };
-		CF5685E92B7EC678006DF7A3 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
-		CF5685EB2B7EC816006DF7A3 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		CF287C202B80DCA10046A07C /* PScrollAndLazyGridsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PScrollAndLazyGridsView.swift; sourceTree = "<group>"; };
+		CF287C222B8104BE0046A07C /* QFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFormView.swift; sourceTree = "<group>"; };
+		CF287C252B810A3B0046A07C /* RListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RListView.swift; sourceTree = "<group>"; };
+		CF5685E72B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTextFieldAndSecureFieldView.swift; sourceTree = "<group>"; };
+		CF5685E92B7EC678006DF7A3 /* HTextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTextEditorView.swift; sourceTree = "<group>"; };
+		CF5685EB2B7EC816006DF7A3 /* IDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDatePickerView.swift; sourceTree = "<group>"; };
 		CF5685F02B7ECA4E006DF7A3 /* UtilidadesGenerales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilidadesGenerales.swift; sourceTree = "<group>"; };
 		CF681C5A2B79859B005B4CDC /* ResumenSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResumenSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF681C5D2B79859B005B4CDC /* ResumenSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumenSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -69,18 +69,18 @@
 		CF681C752B79859C005B4CDC /* ResumenSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumenSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF681C792B79859C005B4CDC /* ResumenSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumenSwiftUIUITests.swift; sourceTree = "<group>"; };
 		CF681C7B2B79859C005B4CDC /* ResumenSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumenSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CF681C882B798611005B4CDC /* PositionersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionersView.swift; sourceTree = "<group>"; };
-		CF681C8B2B798909005B4CDC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		CF867BC62B800F1A00DC353F /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
-		CF867BC82B80144500DC353F /* ProgressViewT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewT.swift; sourceTree = "<group>"; };
-		CF867BCA2B80175600DC353F /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
-		CF867BCC2B80196800DC353F /* TogggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogggleView.swift; sourceTree = "<group>"; };
-		CF867BCE2B801CA600DC353F /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
-		CF867BD02B801E7300DC353F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
-		CFE08A3B2B7C1E3F004B1AF7 /* StatePropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyView.swift; sourceTree = "<group>"; };
-		CFE08A3D2B7C1EF7004B1AF7 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
-		CFE08A3F2B7C207B004B1AF7 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		CFE08A412B7C23A7004B1AF7 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		CF681C882B798611005B4CDC /* APositionersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APositionersView.swift; sourceTree = "<group>"; };
+		CF681C8B2B798909005B4CDC /* BImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BImageView.swift; sourceTree = "<group>"; };
+		CF867BC62B800F1A00DC353F /* JColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JColorPickerView.swift; sourceTree = "<group>"; };
+		CF867BC82B80144500DC353F /* KProgressViewT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KProgressViewT.swift; sourceTree = "<group>"; };
+		CF867BCA2B80175600DC353F /* LLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLinkView.swift; sourceTree = "<group>"; };
+		CF867BCC2B80196800DC353F /* MTogggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTogggleView.swift; sourceTree = "<group>"; };
+		CF867BCE2B801CA600DC353F /* NStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NStepperView.swift; sourceTree = "<group>"; };
+		CF867BD02B801E7300DC353F /* OSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSliderView.swift; sourceTree = "<group>"; };
+		CFE08A3B2B7C1E3F004B1AF7 /* CStatePropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CStatePropertyView.swift; sourceTree = "<group>"; };
+		CFE08A3D2B7C1EF7004B1AF7 /* DLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLabelView.swift; sourceTree = "<group>"; };
+		CFE08A3F2B7C207B004B1AF7 /* ETextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETextView.swift; sourceTree = "<group>"; };
+		CFE08A412B7C23A7004B1AF7 /* FButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 		CF287C242B8109F00046A07C /* Parte3 - Presentación de datos */ = {
 			isa = PBXGroup;
 			children = (
-				CF287C222B8104BE0046A07C /* FormView.swift */,
-				CF287C252B810A3B0046A07C /* ListView.swift */,
+				CF287C222B8104BE0046A07C /* QFormView.swift */,
+				CF287C252B810A3B0046A07C /* RListView.swift */,
 			);
 			name = "Parte3 - Presentación de datos";
 			path = "Parte3 - Presentación de datos";
@@ -121,16 +121,16 @@
 		CF5685EE2B7EC8DE006DF7A3 /* Parte2 - Útiles para formularios */ = {
 			isa = PBXGroup;
 			children = (
-				CF5685E72B7EBEEF006DF7A3 /* TextFieldAndSecureFieldView.swift */,
-				CF5685E92B7EC678006DF7A3 /* TextEditorView.swift */,
-				CF5685EB2B7EC816006DF7A3 /* DatePickerView.swift */,
-				CF867BC62B800F1A00DC353F /* ColorPickerView.swift */,
-				CF867BC82B80144500DC353F /* ProgressViewT.swift */,
-				CF867BCA2B80175600DC353F /* LinkView.swift */,
-				CF867BCC2B80196800DC353F /* TogggleView.swift */,
-				CF867BCE2B801CA600DC353F /* StepperView.swift */,
-				CF867BD02B801E7300DC353F /* SliderView.swift */,
-				CF287C202B80DCA10046A07C /* ScrollAndLazyGridsView.swift */,
+				CF5685E72B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift */,
+				CF5685E92B7EC678006DF7A3 /* HTextEditorView.swift */,
+				CF5685EB2B7EC816006DF7A3 /* IDatePickerView.swift */,
+				CF867BC62B800F1A00DC353F /* JColorPickerView.swift */,
+				CF867BC82B80144500DC353F /* KProgressViewT.swift */,
+				CF867BCA2B80175600DC353F /* LLinkView.swift */,
+				CF867BCC2B80196800DC353F /* MTogggleView.swift */,
+				CF867BCE2B801CA600DC353F /* NStepperView.swift */,
+				CF867BD02B801E7300DC353F /* OSliderView.swift */,
+				CF287C202B80DCA10046A07C /* PScrollAndLazyGridsView.swift */,
 			);
 			name = "Parte2 - Útiles para formularios";
 			path = "Parte2 - Útiles para formularios";
@@ -207,12 +207,12 @@
 		CF681C8A2B798633005B4CDC /* Parte1 - Introducción y básicos */ = {
 			isa = PBXGroup;
 			children = (
-				CF681C882B798611005B4CDC /* PositionersView.swift */,
-				CF681C8B2B798909005B4CDC /* ImageView.swift */,
-				CFE08A3B2B7C1E3F004B1AF7 /* StatePropertyView.swift */,
-				CFE08A3D2B7C1EF7004B1AF7 /* LabelView.swift */,
-				CFE08A3F2B7C207B004B1AF7 /* TextView.swift */,
-				CFE08A412B7C23A7004B1AF7 /* ButtonView.swift */,
+				CF681C882B798611005B4CDC /* APositionersView.swift */,
+				CF681C8B2B798909005B4CDC /* BImageView.swift */,
+				CFE08A3B2B7C1E3F004B1AF7 /* CStatePropertyView.swift */,
+				CFE08A3D2B7C1EF7004B1AF7 /* DLabelView.swift */,
+				CFE08A3F2B7C207B004B1AF7 /* ETextView.swift */,
+				CFE08A412B7C23A7004B1AF7 /* FButtonView.swift */,
 			);
 			name = "Parte1 - Introducción y básicos";
 			path = "Parte1 - Introducción y básicos";
@@ -348,26 +348,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE08A3C2B7C1E3F004B1AF7 /* StatePropertyView.swift in Sources */,
-				CF287C212B80DCA10046A07C /* ScrollAndLazyGridsView.swift in Sources */,
-				CF681C8C2B798909005B4CDC /* ImageView.swift in Sources */,
+				CFE08A3C2B7C1E3F004B1AF7 /* CStatePropertyView.swift in Sources */,
+				CF287C212B80DCA10046A07C /* PScrollAndLazyGridsView.swift in Sources */,
+				CF681C8C2B798909005B4CDC /* BImageView.swift in Sources */,
 				CF5685F12B7ECA4E006DF7A3 /* UtilidadesGenerales.swift in Sources */,
-				CFE08A422B7C23A7004B1AF7 /* ButtonView.swift in Sources */,
-				CF867BCB2B80175600DC353F /* LinkView.swift in Sources */,
-				CF5685EC2B7EC816006DF7A3 /* DatePickerView.swift in Sources */,
-				CF867BC92B80144500DC353F /* ProgressViewT.swift in Sources */,
-				CFE08A402B7C207B004B1AF7 /* TextView.swift in Sources */,
-				CF681C892B798611005B4CDC /* PositionersView.swift in Sources */,
+				CFE08A422B7C23A7004B1AF7 /* FButtonView.swift in Sources */,
+				CF867BCB2B80175600DC353F /* LLinkView.swift in Sources */,
+				CF5685EC2B7EC816006DF7A3 /* IDatePickerView.swift in Sources */,
+				CF867BC92B80144500DC353F /* KProgressViewT.swift in Sources */,
+				CFE08A402B7C207B004B1AF7 /* ETextView.swift in Sources */,
+				CF681C892B798611005B4CDC /* APositionersView.swift in Sources */,
 				CF681C5E2B79859B005B4CDC /* ResumenSwiftUIApp.swift in Sources */,
-				CF867BCF2B801CA600DC353F /* StepperView.swift in Sources */,
-				CF287C262B810A3B0046A07C /* ListView.swift in Sources */,
-				CF867BD12B801E7300DC353F /* SliderView.swift in Sources */,
-				CFE08A3E2B7C1EF7004B1AF7 /* LabelView.swift in Sources */,
-				CF5685EA2B7EC678006DF7A3 /* TextEditorView.swift in Sources */,
-				CF867BCD2B80196800DC353F /* TogggleView.swift in Sources */,
-				CF867BC72B800F1A00DC353F /* ColorPickerView.swift in Sources */,
-				CF287C232B8104BE0046A07C /* FormView.swift in Sources */,
-				CF5685E82B7EBEEF006DF7A3 /* TextFieldAndSecureFieldView.swift in Sources */,
+				CF867BCF2B801CA600DC353F /* NStepperView.swift in Sources */,
+				CF287C262B810A3B0046A07C /* RListView.swift in Sources */,
+				CF867BD12B801E7300DC353F /* OSliderView.swift in Sources */,
+				CFE08A3E2B7C1EF7004B1AF7 /* DLabelView.swift in Sources */,
+				CF5685EA2B7EC678006DF7A3 /* HTextEditorView.swift in Sources */,
+				CF867BCD2B80196800DC353F /* MTogggleView.swift in Sources */,
+				CF867BC72B800F1A00DC353F /* JColorPickerView.swift in Sources */,
+				CF287C232B8104BE0046A07C /* QFormView.swift in Sources */,
+				CF5685E82B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct SliderView: View {
+// PD: Nos saltamos la Ñ del abecedario, y ponemos directamente la O
+struct OSliderView: View {
     
     @State var value: Float = 5.0
     @State var isEditing: Bool = false
@@ -32,5 +33,5 @@ struct SliderView: View {
 }
 
 #Preview {
-    SliderView()
+    OSliderView()
 }

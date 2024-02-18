@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StepperView: View {
+struct NStepperView: View {
     
     @State var iPhoneCounter: Int = 1
     
@@ -41,5 +41,5 @@ struct StepperView: View {
 }
 
 #Preview {
-    StepperView()
+    NStepperView()
 }

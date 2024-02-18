@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StatePropertyView: View {
+struct CStatePropertyView: View {
     
     @State private var counter: Int = 0 // @State es una Property Wrapper para convertir una variable de un struct (un elemento no mutable) en mutable.
     
@@ -22,5 +22,5 @@ struct StatePropertyView: View {
 }
 
 #Preview {
-    StatePropertyView()
+    CStatePropertyView()
 }

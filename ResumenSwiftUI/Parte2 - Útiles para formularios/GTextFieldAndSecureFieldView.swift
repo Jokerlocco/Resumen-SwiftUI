@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TextFieldAndSecureFieldView: View {
+struct GTextFieldAndSecureFieldView: View {
     
     @State var username: String = ""
     @State var password: String = ""
@@ -45,5 +45,5 @@ struct TextFieldAndSecureFieldView: View {
 }
 
 #Preview {
-    TextFieldAndSecureFieldView()
+    GTextFieldAndSecureFieldView()
 }

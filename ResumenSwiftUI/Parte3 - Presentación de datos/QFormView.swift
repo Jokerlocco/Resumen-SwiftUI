@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FormView: View {
+struct QFormView: View {
     
     @State var deviceName: String = ""
     @State var isNetworkOn: Bool = true
@@ -37,5 +37,5 @@ struct FormView: View {
 }
 
 #Preview {
-    FormView()
+    QFormView()
 }

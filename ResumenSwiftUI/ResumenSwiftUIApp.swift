@@ -11,7 +11,7 @@ import SwiftUI
 struct ResumenSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            LinkView()
+            LLinkView()
         }
     }
 }

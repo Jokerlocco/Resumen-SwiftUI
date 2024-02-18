@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TextView: View {
+struct ETextView: View {
     var body: some View {
         VStack {
             // Distintas propiedades para Text:
@@ -46,5 +46,5 @@ struct TextView: View {
 }
 
 #Preview {
-    TextView()
+    ETextView()
 }

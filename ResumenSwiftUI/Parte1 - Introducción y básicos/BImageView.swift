@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ImageView: View {
+struct BImageView: View {
     var body: some View {
         
         /* Al añadir la imagen en los assets, en sus atributos,
@@ -40,5 +40,5 @@ struct ImageView: View {
 }
 
 #Preview {
-    ImageView()
+    BImageView()
 }

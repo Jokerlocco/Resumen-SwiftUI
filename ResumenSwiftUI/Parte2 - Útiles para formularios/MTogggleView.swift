@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TogggleView: View {
+struct MTogggleView: View {
     
     @State var isOn: Bool = false
     
@@ -22,5 +22,5 @@ struct TogggleView: View {
 }
 
 #Preview {
-    TogggleView()
+    MTogggleView()
 }

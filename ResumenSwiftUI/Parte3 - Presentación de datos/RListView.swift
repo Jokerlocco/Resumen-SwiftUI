@@ -31,7 +31,7 @@ let allDevices = homeDevices + workDevices
 
 
 
-struct ListView: View {
+struct RListView: View {
     
     @State var showingFirstSection = true
 
@@ -59,5 +59,5 @@ struct ListView: View {
 }
 
 #Preview {
-    ListView()
+    RListView()
 }

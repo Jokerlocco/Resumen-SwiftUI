@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScrollAndLazyGridsView: View {
+struct PScrollAndLazyGridsView: View {
     
     let elements = 1...500 // En este caso, mostraremos los números del 1 al 500
     
@@ -50,5 +50,5 @@ struct ScrollAndLazyGridsView: View {
 }
 
 #Preview {
-    ScrollAndLazyGridsView()
+    PScrollAndLazyGridsView()
 }

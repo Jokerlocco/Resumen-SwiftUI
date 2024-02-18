@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ButtonView: View {
+struct FButtonView: View {
     var body: some View {
         VStack {
             
@@ -54,5 +54,5 @@ struct ButtonView: View {
 }
 
 #Preview {
-    ButtonView()
+    FButtonView()
 }

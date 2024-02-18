@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PositionersView: View {
+struct APositionersView: View {
     var body: some View {
         
         VStack(alignment: .leading, spacing: 10) {
@@ -39,5 +39,5 @@ struct PositionersView: View {
 }
 
 #Preview {
-    PositionersView()
+    APositionersView()
 }

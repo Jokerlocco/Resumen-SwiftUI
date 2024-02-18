@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ColorPickerView: View {
+struct JColorPickerView: View {
     
     @State var color: Color = .blue
     
@@ -23,5 +23,5 @@ struct ColorPickerView: View {
 }
 
 #Preview {
-    ColorPickerView()
+    JColorPickerView()
 }
