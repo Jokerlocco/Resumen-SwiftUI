@@ -28,9 +28,9 @@
 		CF867BCD2B80196800DC353F /* MTogggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BCC2B80196800DC353F /* MTogggleView.swift */; };
 		CF867BCF2B801CA600DC353F /* NStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BCE2B801CA600DC353F /* NStepperView.swift */; };
 		CF867BD12B801E7300DC353F /* OSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BD02B801E7300DC353F /* OSliderView.swift */; };
-		CF89522F2B8E9CBE0043F077 /* ZATapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF89522C2B8E9CBE0043F077 /* ZATapGestureView.swift */; };
-		CF8952302B8E9CBE0043F077 /* XContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF89522D2B8E9CBE0043F077 /* XContextMenuView.swift */; };
-		CF8952312B8E9CBE0043F077 /* ZBDragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF89522E2B8E9CBE0043F077 /* ZBDragGestureView.swift */; };
+		CF8952382B8E9E490043F077 /* XContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8952352B8E9E490043F077 /* XContextMenuView.swift */; };
+		CF8952392B8E9E490043F077 /* ZATapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8952362B8E9E490043F077 /* ZATapGestureView.swift */; };
+		CF89523A2B8E9E490043F077 /* ZBDragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8952372B8E9E490043F077 /* ZBDragGestureView.swift */; };
 		CFC00B902B8D42C8001EB244 /* VAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC00B8F2B8D42C8001EB244 /* VAlertView.swift */; };
 		CFC00B922B8D4751001EB244 /* WActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC00B912B8D4751001EB244 /* WActionSheetView.swift */; };
 		CFE08A3C2B7C1E3F004B1AF7 /* CStatePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE08A3B2B7C1E3F004B1AF7 /* CStatePropertyView.swift */; };
@@ -85,9 +85,9 @@
 		CF867BCC2B80196800DC353F /* MTogggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTogggleView.swift; sourceTree = "<group>"; };
 		CF867BCE2B801CA600DC353F /* NStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NStepperView.swift; sourceTree = "<group>"; };
 		CF867BD02B801E7300DC353F /* OSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSliderView.swift; sourceTree = "<group>"; };
-		CF89522C2B8E9CBE0043F077 /* ZATapGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZATapGestureView.swift; path = ../../../../../../Desktop/ZATapGestureView.swift; sourceTree = "<group>"; };
-		CF89522D2B8E9CBE0043F077 /* XContextMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XContextMenuView.swift; path = ../../../../../../Desktop/XContextMenuView.swift; sourceTree = "<group>"; };
-		CF89522E2B8E9CBE0043F077 /* ZBDragGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZBDragGestureView.swift; path = ../../../../../../Desktop/ZBDragGestureView.swift; sourceTree = "<group>"; };
+		CF8952352B8E9E490043F077 /* XContextMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XContextMenuView.swift; sourceTree = "<group>"; };
+		CF8952362B8E9E490043F077 /* ZATapGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZATapGestureView.swift; sourceTree = "<group>"; };
+		CF8952372B8E9E490043F077 /* ZBDragGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBDragGestureView.swift; sourceTree = "<group>"; };
 		CFC00B8F2B8D42C8001EB244 /* VAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAlertView.swift; sourceTree = "<group>"; };
 		CFC00B912B8D4751001EB244 /* WActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WActionSheetView.swift; sourceTree = "<group>"; };
 		CFE08A3B2B7C1E3F004B1AF7 /* CStatePropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CStatePropertyView.swift; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 				CF681C8A2B798633005B4CDC /* Parte1 - Introducción y básicos */,
 				CF5685EE2B7EC8DE006DF7A3 /* Parte2 - Útiles para formularios */,
 				CF287C242B8109F00046A07C /* Parte3 - Presentación de datos */,
-				CF89522B2B8E9C900043F077 /* Parte4 - Gestos */,
+				CF8952342B8E9E230043F077 /* Parte4 - Gestos */,
 			);
 			path = ResumenSwiftUI;
 			sourceTree = "<group>";
@@ -240,12 +240,12 @@
 			path = "Parte1 - Introducción y básicos";
 			sourceTree = "<group>";
 		};
-		CF89522B2B8E9C900043F077 /* Parte4 - Gestos */ = {
+		CF8952342B8E9E230043F077 /* Parte4 - Gestos */ = {
 			isa = PBXGroup;
 			children = (
-				CF89522D2B8E9CBE0043F077 /* XContextMenuView.swift */,
-				CF89522C2B8E9CBE0043F077 /* ZATapGestureView.swift */,
-				CF89522E2B8E9CBE0043F077 /* ZBDragGestureView.swift */,
+				CF8952352B8E9E490043F077 /* XContextMenuView.swift */,
+				CF8952362B8E9E490043F077 /* ZATapGestureView.swift */,
+				CF8952372B8E9E490043F077 /* ZBDragGestureView.swift */,
 			);
 			path = "Parte4 - Gestos";
 			sourceTree = "<group>";
@@ -381,19 +381,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE08A3C2B7C1E3F004B1AF7 /* CStatePropertyView.swift in Sources */,
-				CF89522F2B8E9CBE0043F077 /* ZATapGestureView.swift in Sources */,
 				CF287C212B80DCA10046A07C /* PScrollAndLazyGridsView.swift in Sources */,
 				CF681C8C2B798909005B4CDC /* BImageView.swift in Sources */,
 				CF5685F12B7ECA4E006DF7A3 /* UtilidadesGenerales.swift in Sources */,
+				CF8952382B8E9E490043F077 /* XContextMenuView.swift in Sources */,
 				CFE08A422B7C23A7004B1AF7 /* FButtonView.swift in Sources */,
 				CF867BCB2B80175600DC353F /* LLinkView.swift in Sources */,
 				CF5685EC2B7EC816006DF7A3 /* IDatePickerView.swift in Sources */,
 				CF867BC92B80144500DC353F /* KProgressView.swift in Sources */,
 				CFE5AFDA2B822C2100FAC2DE /* SNavigationViewAndNavigationLink.swift in Sources */,
+				CF8952392B8E9E490043F077 /* ZATapGestureView.swift in Sources */,
 				CFE5AFDE2B824A4A00FAC2DE /* UModosDePresentarPantallaView.swift in Sources */,
 				CFE08A402B7C207B004B1AF7 /* ETextView.swift in Sources */,
 				CF681C892B798611005B4CDC /* APositionersView.swift in Sources */,
-				CF8952302B8E9CBE0043F077 /* XContextMenuView.swift in Sources */,
 				CFC00B902B8D42C8001EB244 /* VAlertView.swift in Sources */,
 				CFE5AFDC2B82433D00FAC2DE /* TTabView.swift in Sources */,
 				CF681C5E2B79859B005B4CDC /* ResumenSwiftUIApp.swift in Sources */,
@@ -406,7 +406,7 @@
 				CF867BCD2B80196800DC353F /* MTogggleView.swift in Sources */,
 				CF867BC72B800F1A00DC353F /* JColorPickerView.swift in Sources */,
 				CF287C232B8104BE0046A07C /* QFormView.swift in Sources */,
-				CF8952312B8E9CBE0043F077 /* ZBDragGestureView.swift in Sources */,
+				CF89523A2B8E9E490043F077 /* ZBDragGestureView.swift in Sources */,
 				CF5685E82B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
