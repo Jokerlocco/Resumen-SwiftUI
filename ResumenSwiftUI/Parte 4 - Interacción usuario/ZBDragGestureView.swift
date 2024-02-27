@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Z2DragGestureView: View {
+struct ZBDragGestureView: View {
     
     @State var dragOffset: CGSize = .zero // Crearemos esta variable para almacenar la posición de la view según el "arrastre" que haga el usuario (con el gesto de DragGesture). Por defecto, la dejaremos en la ubicación por defecto de cualquier vista en SwiftUI (que es la x: 0, y: 0, z: 0): .zero, en CGSize.
     
@@ -30,5 +30,5 @@ struct Z2DragGestureView: View {
 }
 
 #Preview {
-    Z2DragGestureView()
+    ZBDragGestureView()
 }

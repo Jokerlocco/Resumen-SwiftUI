@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ZTapGestureView: View {
+struct ZATapGestureView: View {
     var body: some View {
         
         // Forma 1 de añadir un tapGesture (es decir, que ocurra algo cuando el usuario tappe/pulse sobre la vista)
@@ -32,5 +32,5 @@ struct ZTapGestureView: View {
 }
 
 #Preview {
-    ZTapGestureView()
+    ZATapGestureView()
 }

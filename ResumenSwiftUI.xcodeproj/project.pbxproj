@@ -10,8 +10,8 @@
 		CF287C212B80DCA10046A07C /* PScrollAndLazyGridsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C202B80DCA10046A07C /* PScrollAndLazyGridsView.swift */; };
 		CF287C232B8104BE0046A07C /* QFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C222B8104BE0046A07C /* QFormView.swift */; };
 		CF287C262B810A3B0046A07C /* RListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C252B810A3B0046A07C /* RListView.swift */; };
-		CF4E5B6B2B8E90CC005A418C /* ZTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E5B6A2B8E90CC005A418C /* ZTapGestureView.swift */; };
-		CF4E5B6D2B8E942C005A418C /* Z2DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E5B6C2B8E942C005A418C /* Z2DragGestureView.swift */; };
+		CF4E5B6B2B8E90CC005A418C /* ZATapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E5B6A2B8E90CC005A418C /* ZATapGestureView.swift */; };
+		CF4E5B6D2B8E942C005A418C /* ZBDragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E5B6C2B8E942C005A418C /* ZBDragGestureView.swift */; };
 		CF5685E82B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685E72B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift */; };
 		CF5685EA2B7EC678006DF7A3 /* HTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685E92B7EC678006DF7A3 /* HTextEditorView.swift */; };
 		CF5685EC2B7EC816006DF7A3 /* IDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685EB2B7EC816006DF7A3 /* IDatePickerView.swift */; };
@@ -63,8 +63,8 @@
 		CF287C202B80DCA10046A07C /* PScrollAndLazyGridsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PScrollAndLazyGridsView.swift; sourceTree = "<group>"; };
 		CF287C222B8104BE0046A07C /* QFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFormView.swift; sourceTree = "<group>"; };
 		CF287C252B810A3B0046A07C /* RListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RListView.swift; sourceTree = "<group>"; };
-		CF4E5B6A2B8E90CC005A418C /* ZTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTapGestureView.swift; sourceTree = "<group>"; };
-		CF4E5B6C2B8E942C005A418C /* Z2DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z2DragGestureView.swift; sourceTree = "<group>"; };
+		CF4E5B6A2B8E90CC005A418C /* ZATapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZATapGestureView.swift; sourceTree = "<group>"; };
+		CF4E5B6C2B8E942C005A418C /* ZBDragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBDragGestureView.swift; sourceTree = "<group>"; };
 		CF5685E72B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTextFieldAndSecureFieldView.swift; sourceTree = "<group>"; };
 		CF5685E92B7EC678006DF7A3 /* HTextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTextEditorView.swift; sourceTree = "<group>"; };
 		CF5685EB2B7EC816006DF7A3 /* IDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDatePickerView.swift; sourceTree = "<group>"; };
@@ -143,8 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				CFC00B932B8D4A9B001EB244 /* XContextMenuView.swift */,
-				CF4E5B6A2B8E90CC005A418C /* ZTapGestureView.swift */,
-				CF4E5B6C2B8E942C005A418C /* Z2DragGestureView.swift */,
+				CF4E5B6A2B8E90CC005A418C /* ZATapGestureView.swift */,
+				CF4E5B6C2B8E942C005A418C /* ZBDragGestureView.swift */,
 			);
 			name = "Parte4 - Gestos";
 			path = "Parte 4 - Interacción usuario";
@@ -389,11 +389,11 @@
 				CFE08A422B7C23A7004B1AF7 /* FButtonView.swift in Sources */,
 				CF867BCB2B80175600DC353F /* LLinkView.swift in Sources */,
 				CF5685EC2B7EC816006DF7A3 /* IDatePickerView.swift in Sources */,
-				CF4E5B6D2B8E942C005A418C /* Z2DragGestureView.swift in Sources */,
+				CF4E5B6D2B8E942C005A418C /* ZBDragGestureView.swift in Sources */,
 				CF867BC92B80144500DC353F /* KProgressView.swift in Sources */,
 				CFE5AFDA2B822C2100FAC2DE /* SNavigationViewAndNavigationLink.swift in Sources */,
 				CFE5AFDE2B824A4A00FAC2DE /* UModosDePresentarPantallaView.swift in Sources */,
-				CF4E5B6B2B8E90CC005A418C /* ZTapGestureView.swift in Sources */,
+				CF4E5B6B2B8E90CC005A418C /* ZATapGestureView.swift in Sources */,
 				CFE08A402B7C207B004B1AF7 /* ETextView.swift in Sources */,
 				CF681C892B798611005B4CDC /* APositionersView.swift in Sources */,
 				CFC00B902B8D42C8001EB244 /* VAlertView.swift in Sources */,
