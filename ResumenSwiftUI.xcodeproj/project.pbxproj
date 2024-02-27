@@ -11,7 +11,7 @@
 		CF287C232B8104BE0046A07C /* QFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C222B8104BE0046A07C /* QFormView.swift */; };
 		CF287C262B810A3B0046A07C /* RListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF287C252B810A3B0046A07C /* RListView.swift */; };
 		CF4E5B6B2B8E90CC005A418C /* ZTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E5B6A2B8E90CC005A418C /* ZTapGestureView.swift */; };
-		CF4E5B6D2B8E942C005A418C /* AADragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E5B6C2B8E942C005A418C /* AADragGestureView.swift */; };
+		CF4E5B6D2B8E942C005A418C /* Z2DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E5B6C2B8E942C005A418C /* Z2DragGestureView.swift */; };
 		CF5685E82B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685E72B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift */; };
 		CF5685EA2B7EC678006DF7A3 /* HTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685E92B7EC678006DF7A3 /* HTextEditorView.swift */; };
 		CF5685EC2B7EC816006DF7A3 /* IDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5685EB2B7EC816006DF7A3 /* IDatePickerView.swift */; };
@@ -64,7 +64,7 @@
 		CF287C222B8104BE0046A07C /* QFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFormView.swift; sourceTree = "<group>"; };
 		CF287C252B810A3B0046A07C /* RListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RListView.swift; sourceTree = "<group>"; };
 		CF4E5B6A2B8E90CC005A418C /* ZTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTapGestureView.swift; sourceTree = "<group>"; };
-		CF4E5B6C2B8E942C005A418C /* AADragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AADragGestureView.swift; sourceTree = "<group>"; };
+		CF4E5B6C2B8E942C005A418C /* Z2DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z2DragGestureView.swift; sourceTree = "<group>"; };
 		CF5685E72B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTextFieldAndSecureFieldView.swift; sourceTree = "<group>"; };
 		CF5685E92B7EC678006DF7A3 /* HTextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTextEditorView.swift; sourceTree = "<group>"; };
 		CF5685EB2B7EC816006DF7A3 /* IDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDatePickerView.swift; sourceTree = "<group>"; };
@@ -139,14 +139,14 @@
 			path = "Parte3 - Presentación de datos";
 			sourceTree = "<group>";
 		};
-		CF4E5B692B8E9003005A418C /* Parte 4 - Gestos */ = {
+		CF4E5B692B8E9003005A418C /* Parte4 - Gestos */ = {
 			isa = PBXGroup;
 			children = (
 				CFC00B932B8D4A9B001EB244 /* XContextMenuView.swift */,
 				CF4E5B6A2B8E90CC005A418C /* ZTapGestureView.swift */,
-				CF4E5B6C2B8E942C005A418C /* AADragGestureView.swift */,
+				CF4E5B6C2B8E942C005A418C /* Z2DragGestureView.swift */,
 			);
-			name = "Parte 4 - Gestos";
+			name = "Parte4 - Gestos";
 			path = "Parte 4 - Interacción usuario";
 			sourceTree = "<group>";
 		};
@@ -207,7 +207,7 @@
 				CF681C8A2B798633005B4CDC /* Parte1 - Introducción y básicos */,
 				CF5685EE2B7EC8DE006DF7A3 /* Parte2 - Útiles para formularios */,
 				CF287C242B8109F00046A07C /* Parte3 - Presentación de datos */,
-				CF4E5B692B8E9003005A418C /* Parte 4 - Gestos */,
+				CF4E5B692B8E9003005A418C /* Parte4 - Gestos */,
 			);
 			path = ResumenSwiftUI;
 			sourceTree = "<group>";
@@ -389,7 +389,7 @@
 				CFE08A422B7C23A7004B1AF7 /* FButtonView.swift in Sources */,
 				CF867BCB2B80175600DC353F /* LLinkView.swift in Sources */,
 				CF5685EC2B7EC816006DF7A3 /* IDatePickerView.swift in Sources */,
-				CF4E5B6D2B8E942C005A418C /* AADragGestureView.swift in Sources */,
+				CF4E5B6D2B8E942C005A418C /* Z2DragGestureView.swift in Sources */,
 				CF867BC92B80144500DC353F /* KProgressView.swift in Sources */,
 				CFE5AFDA2B822C2100FAC2DE /* SNavigationViewAndNavigationLink.swift in Sources */,
 				CFE5AFDE2B824A4A00FAC2DE /* UModosDePresentarPantallaView.swift in Sources */,
