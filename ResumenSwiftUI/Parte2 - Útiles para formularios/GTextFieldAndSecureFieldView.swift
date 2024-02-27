@@ -15,15 +15,15 @@ struct GTextFieldAndSecureFieldView: View {
     var body: some View {
         VStack {
             TextField("Username", // placeholder del input (para guiar al usuario con lo que tiene que poner)
-                      text: $username) // 'text' es de tipo Binding, es decir, requiere que se le específique una variable @State (o similar), es decir, que sea mutable, e indicarle el símbolo del $.
+                      text: $username) // 'text' es de tipo Binding, es decir, requiere que se le específique una variable @State (o similar), es decir, que sea mutable, e indicarle el símbolo del $ (para proyectar en la view, el valor de username).
                 .keyboardType(.emailAddress) // Tipo de teclado que se muestra cuando se escribe en el TextField. En este caso, uno adecuado para escribir un email.
                 .disableAutocorrection(true)
                 .padding(8)
                 .font(.headline)
                 .background(Color.gray.opacity(0.3))
                 .cornerRadius(6)
-                .padding(.horizontal, 60)
-                .padding(.top, 40)
+                .padding(.horizontal, 60) // De esta forma, podemos aplicar un padding de forma horizontal solamente
+                .padding(.top, 40) // O en la parte superior
                 .onChange(of: username) { oldValue, newValue in // Evento que se ejecuta cada vez que detecte un cambio en el TextField
                     print("New username value  \(newValue)")
                 }

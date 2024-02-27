@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct KProgressViewT: View {
+struct KProgressView: View {
     
     @State var isLoading: Bool = false
     
@@ -35,5 +35,5 @@ struct KProgressViewT: View {
 }
 
 #Preview {
-    KProgressViewT()
+    KProgressView()
 }
