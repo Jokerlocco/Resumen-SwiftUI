@@ -28,6 +28,8 @@
 		CF867BCD2B80196800DC353F /* MTogggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BCC2B80196800DC353F /* MTogggleView.swift */; };
 		CF867BCF2B801CA600DC353F /* NStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BCE2B801CA600DC353F /* NStepperView.swift */; };
 		CF867BD12B801E7300DC353F /* OSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF867BD02B801E7300DC353F /* OSliderView.swift */; };
+		CF88A1DC2B8FDC5800927676 /* AStateAndBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88A1DB2B8FDC5800927676 /* AStateAndBindingView.swift */; };
+		CF88A1DE2B8FDE5700927676 /* BStateObjectAndObservedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88A1DD2B8FDE5700927676 /* BStateObjectAndObservedObjectView.swift */; };
 		CF8952382B8E9E490043F077 /* XContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8952352B8E9E490043F077 /* XContextMenuView.swift */; };
 		CF8952392B8E9E490043F077 /* ZATapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8952362B8E9E490043F077 /* ZATapGestureView.swift */; };
 		CF89523A2B8E9E490043F077 /* ZBDragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8952372B8E9E490043F077 /* ZBDragGestureView.swift */; };
@@ -85,6 +87,8 @@
 		CF867BCC2B80196800DC353F /* MTogggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTogggleView.swift; sourceTree = "<group>"; };
 		CF867BCE2B801CA600DC353F /* NStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NStepperView.swift; sourceTree = "<group>"; };
 		CF867BD02B801E7300DC353F /* OSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSliderView.swift; sourceTree = "<group>"; };
+		CF88A1DB2B8FDC5800927676 /* AStateAndBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AStateAndBindingView.swift; sourceTree = "<group>"; };
+		CF88A1DD2B8FDE5700927676 /* BStateObjectAndObservedObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BStateObjectAndObservedObjectView.swift; sourceTree = "<group>"; };
 		CF8952352B8E9E490043F077 /* XContextMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XContextMenuView.swift; sourceTree = "<group>"; };
 		CF8952362B8E9E490043F077 /* ZATapGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZATapGestureView.swift; sourceTree = "<group>"; };
 		CF8952372B8E9E490043F077 /* ZBDragGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBDragGestureView.swift; sourceTree = "<group>"; };
@@ -197,6 +201,7 @@
 				CF5685EE2B7EC8DE006DF7A3 /* Parte2 - Útiles para formularios */,
 				CF287C242B8109F00046A07C /* Parte3 - Presentación de datos */,
 				CF8952342B8E9E230043F077 /* Parte4 - Gestos */,
+				CF88A1DA2B8FDBE000927676 /* Apéndice - Property Wrappers */,
 			);
 			path = ResumenSwiftUI;
 			sourceTree = "<group>";
@@ -238,6 +243,16 @@
 			);
 			name = "Parte1 - Introducción y básicos";
 			path = "Parte1 - Introducción y básicos";
+			sourceTree = "<group>";
+		};
+		CF88A1DA2B8FDBE000927676 /* Apéndice - Property Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				CF88A1DB2B8FDC5800927676 /* AStateAndBindingView.swift */,
+				CF88A1DD2B8FDE5700927676 /* BStateObjectAndObservedObjectView.swift */,
+			);
+			name = "Apéndice - Property Wrappers";
+			path = "Apéndice";
 			sourceTree = "<group>";
 		};
 		CF8952342B8E9E230043F077 /* Parte4 - Gestos */ = {
@@ -396,6 +411,7 @@
 				CF681C892B798611005B4CDC /* APositionersView.swift in Sources */,
 				CFC00B902B8D42C8001EB244 /* VAlertView.swift in Sources */,
 				CFE5AFDC2B82433D00FAC2DE /* TTabView.swift in Sources */,
+				CF88A1DC2B8FDC5800927676 /* AStateAndBindingView.swift in Sources */,
 				CF681C5E2B79859B005B4CDC /* ResumenSwiftUIApp.swift in Sources */,
 				CF867BCF2B801CA600DC353F /* NStepperView.swift in Sources */,
 				CF287C262B810A3B0046A07C /* RListView.swift in Sources */,
@@ -406,6 +422,7 @@
 				CF867BCD2B80196800DC353F /* MTogggleView.swift in Sources */,
 				CF867BC72B800F1A00DC353F /* JColorPickerView.swift in Sources */,
 				CF287C232B8104BE0046A07C /* QFormView.swift in Sources */,
+				CF88A1DE2B8FDE5700927676 /* BStateObjectAndObservedObjectView.swift in Sources */,
 				CF89523A2B8E9E490043F077 /* ZBDragGestureView.swift in Sources */,
 				CF5685E82B7EBEEF006DF7A3 /* GTextFieldAndSecureFieldView.swift in Sources */,
 			);
